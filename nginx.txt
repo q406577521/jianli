@@ -1,0 +1,24 @@
+四个依赖环境
+yum install gcc  
+yum install pcre-devel
+yum install zlib zlib-devel
+yum install openssl openssl-devel
+
+nginx 安装包
+wget http://nginx.org/download/nginx-1.13.7.tar.gz
+
+关键词:upstream  自定义集群名{}
+proxy_pass http://自定义集群名；
+
+java _version  查看java信息
+
+java配置信息:
+export JAVA_HOME=/usr/java/jdk1.8.0_181
+export JRE_HOME=/usr/java/jdk1.8.0_181/jre
+export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+
+tomcat默认页面刚改项目
+<Context docBase="bbs1.0" path="" reloadable="false" debug="0"></Context>
+
+
+
